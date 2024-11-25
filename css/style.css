@@ -1,0 +1,503 @@
+/* *{
+    overflow: hidden;
+} */
+
+:root {
+    --main--color: #0078FF;
+    --text--color: #1E1E1E;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1 {
+    font-size: 4rem;
+
+
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 1.5rem;
+}
+
+.navbar-nav li a {
+    position: relative;
+
+}
+
+.navbar-nav li a::before {
+    content: "";
+    border-bottom: 3px solid white;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    right: 100%;
+    bottom: 0;
+
+    transition: all 0.7s;
+
+}
+
+.navbar-nav li a:hover::before {
+    left: 18%;
+    right: 23%;
+}
+
+.lair {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.header-bg {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
+.animation::after {
+    content: "";
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 4rem;
+    animation: bebo 5s infinite;
+
+}
+
+
+
+@keyframes bebo {
+    1% {
+        content: "D|";
+    }
+
+    4% {
+        content: "De|";
+    }
+
+    6% {
+        content: "Dev|";
+    }
+
+    8% {
+        content: "Deve|";
+    }
+
+    10% {
+        content: "Devel|";
+    }
+
+    12% {
+        content: "Develo|";
+    }
+
+    14% {
+        content: "Develop|";
+    }
+
+    16% {
+        content: "Develope|";
+    }
+
+    18% {
+        content: "Developer|";
+    }
+
+    20% {
+        content: "Develope|";
+    }
+
+    21% {
+        content: "Develop|";
+    }
+
+    22% {
+        content: "Develo|";
+    }
+
+    23% {
+        content: "Devel|";
+    }
+
+    24% {
+        content: "Deve|";
+    }
+
+    25% {
+        content: "Dev|";
+    }
+
+    26% {
+        content: "De|";
+    }
+
+    27% {
+        content: "D|";
+    }
+
+    28% {
+        content: "|";
+    }
+
+
+    30% {
+        content: "L|";
+    }
+
+    32% {
+        content: "La|";
+    }
+
+    34% {
+        content: "Laa|";
+    }
+
+    36% {
+        content: "Laar|";
+    }
+
+    38% {
+        content: "Laary|";
+    }
+
+    40% {
+        content: "Laary |";
+    }
+
+    42% {
+        content: "Laary D|";
+    }
+
+    44% {
+        content: "Laary Da|";
+    }
+
+    46% {
+        content: "Laary Dan|";
+    }
+
+    48% {
+        content: "Laary Dani|";
+    }
+
+    50% {
+        content: "Laary Danie|";
+    }
+
+    52% {
+        content: "Laary Daniel|";
+    }
+
+    54% {
+        content: "Laary Daniels|";
+    }
+
+    56% {
+        content: "Laary Daniels|";
+    }
+
+    58% {
+        content: "Laary Daniel|";
+    }
+
+    60% {
+        content: "Laary Danie|";
+    }
+
+    62% {
+        content: "Laary Dani|";
+    }
+
+    64% {
+        content: "Laary Dan|";
+    }
+
+    66% {
+        content: "Laary Da|";
+    }
+
+    68% {
+        content: "Laary D|";
+    }
+
+    70% {
+        content: "Laary |";
+    }
+
+    72% {
+        content: "Laary|";
+    }
+
+    74% {
+        content: "Laar|";
+    }
+
+    76% {
+        content: "Laa|";
+    }
+
+    78% {
+        content: "La|";
+    }
+
+    80% {
+        content: "L|";
+    }
+
+    82% {
+        content: "|";
+    }
+
+    84% {
+        content: "D|";
+    }
+
+    86% {
+        content: "De|";
+    }
+
+    87% {
+        content: "Des|";
+    }
+
+    88% {
+        content: "Desi|";
+    }
+
+    89% {
+        content: "Desig|";
+    }
+
+    90% {
+        content: "Design|";
+    }
+
+    91% {
+        content: "Designe|";
+    }
+
+    92% {
+        content: "Designer|";
+    }
+
+    93% {
+        content: "Designe|";
+    }
+
+    94% {
+        content: "Design|";
+    }
+
+    95% {
+        content: "Desig|";
+    }
+
+    96% {
+        content: "Desi|";
+    }
+
+    97% {
+        content: "Des|";
+    }
+
+    98% {
+        content: "De|";
+    }
+
+    99% {
+        content: "D|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+
+}
+
+.fact h3 {
+
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+.fact p{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.about img {
+    background-color: #F5F5F5;
+}
+
+
+.about-me span {
+
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+.about-progress .progress {
+    height: 1.5rem;
+}
+
+
+.services h3 {
+
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+.services i {
+    background-color: gray;
+    width: 100px;
+    height: 50px;
+    border: 8px solid transparent;
+    border-radius: 50%;
+    transition: all 0.7s;
+}
+
+.services-card:hover i {
+    background-color: black;
+    color: white;
+}
+
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: black;
+    --bs-nav-pills-link-active-bg: white;
+    color: black;
+
+
+}
+
+.nav-link {
+    color: black;
+}
+.Portfolio h1{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.portfolio-img .inner .layer {
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+
+.inner:hover .layer {
+
+    opacity: 0.7;
+
+}
+
+
+.icon i:hover {
+    background-color: white;
+    inset: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    color: black;
+}
+
+
+.client {
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.blog {
+    background-color: #F5F5F5;
+}
+
+.blog-info .card {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.blog-info .card .layer {
+    background-color: white;
+    opacity: 0;
+    transition: all 0.7s;
+    position: absolute;
+    display: flex;
+    z-index: 111;
+    inset: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 23%
+}
+
+.blog-info .card:hover .layer {
+    opacity: 0.8;
+    transform: rotateY(360deg);
+
+}
+
+.blog-info .card img {
+
+    transition: all 0.7s;
+}
+
+.blog-info .card img:hover {
+    transform: scale(1.1);
+}
+
+.blog-info .card .card-body {
+    background-color: #5B5B5B;
+    color: white;
+}
+
+.services-title h1 {
+    position: relative;
+    display: block;
+    z-index: 33;
+}
+
+.services-title h1::before {
+    content: "";
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+
+    width: 50%;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+
+    z-index: -1;
+}
