@@ -4,24 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quotes App</title>
+    <title>Bebo.o</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./HarryP-MVZ6w.ttf">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+
 </head>
 
-<body class=" bg-black">
-    <div class="style position-absolute top-50 start-50 translate-middle text-center">
-        <h1 class="text-warning ">Quote of the Day</h1>
-        <h3 class="text-danger pt-5">Press the button below to recieve a random quote!
+<body>
+    <canvas id="rainfall"></canvas>
+    <div class="style position-absolute top-50 start-50 translate-middle text-center w-50">
 
-            New Quote</h3>
-        <button class="btn btn-warning m-5 fs-4" onclick="generateQuote()"> <b>click on me</b></button>
+        <h1 class="text-warning "></h1>
+        <h3 class="text-dark pb-5"><span class="text-white">Love You Guys Hope</span> New Happy Year ❤️ </h3>
+        <input type="email" class="form-control" id="Name" placeholder="Name">
+        <button onclick="generateQuote()"  class="hp-character griffindor" role="img"
+            aria-label="Cartoon of a Griffindor student (Harry Potter), a boy with rounded glasses and a scar in the forehead, wearing a red and gold scarf">
+        </button>
+        <!-- <button class="btn btn-warning m-5 fs-4" onclick="generateQuote()"> <b>click on me</b></button> -->
         <h3 id="text" class="text-white"></h3>
+
     </div>
     <script src="./js/index.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
