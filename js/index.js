@@ -33,7 +33,7 @@ const correctAnswers = {
   alaa: "خرا شطفات",
   memo: "خرا شطفات",
   menna: "بطاطس سوري",
-  monmon: "كل حاجة",
+  monmon: "every thing",
   bassant: "ياروان",
   rowan: "ايوة",
   tarek: "طارق ابن الناس",
